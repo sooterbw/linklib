@@ -33,7 +33,7 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>LinkLib</title>
 </svelte:head>
 
 <h1 class="text-blue-500">Great success!</h1>
