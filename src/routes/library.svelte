@@ -1,22 +1,27 @@
 <script>
-    import Linkcard from '../components/Linkcard.svelte';
+  import Linkcard from '../components/Linkcard.svelte';
 
-    let links = [];
-    let search = '';
-    let teams = ['The Junction'];
+  let links = [];
+  let search = '';
+  let teams = ['The Junction'];
 </script>
 
 <style>
-    .link-search {
-      background: url(/img/SearchIcon2x.png) no-repeat scroll 2px 2px;
-      background-color:#4a5568;
-      padding-left: 40px;
-    }
+  @import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
 
+  .logo {
+    font-family: 'Galada', cursive;
+  }
+
+  .link-search {
+    background: url(/img/SearchIcon2x.png) no-repeat scroll 2px 2px;
+    background-color:#4a5568;
+    padding-left: 40px;
+  }
 </style>  
 
 <div class="bg-gray-800 h-screen p-5 w-screen overflow-y-scroll">
-    <img class="h-16 md:h-20 mx-auto md:mx-0" src="https://www.oiml.org/en/ressources/icons/link-icon.png/image_preview" alt="The Junction Logo">
+    <h1 class='logo text-3xl text-white'>Anchor Vault</h1>
     <div class="p-5 w-full">
       <div class="sm:flex w-full justify-between">
         <div class="text-xl font-bold text-white">
